@@ -1,0 +1,33 @@
+.socialMedia{
+  height:30vh;
+  width:100vw;
+  text-align: center;
+ 
+}
+
+.socialMedia >button{
+  padding: 10px 15px !important;
+  border-radius: 21px !important;
+  font-size:1.5rem;
+  margin-top:1.5rem;
+  margin-bottom:3.5rem;
+
+}
+
+.socialMedia > button:hover{
+  
+}
+
+.resume__Btn{
+  color:black !important;
+}
+
+.resume__Btn:hover{
+  background-color:#cc4b37 !important;
+  color:#fff !important;
+  border:2px solid #fff !important;
+}
+.fa{
+  color:#000;
+}
+

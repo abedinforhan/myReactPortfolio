@@ -1,0 +1,30 @@
+
+.projectInResume__subtitle{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.projectInResume__links {
+  color:black;
+  font-weight:bold;
+  font-size: 1.6rem;
+}
+.projectInResume__links >a{
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  color:black;
+  font-weight:550;
+}
+ul > li{
+  font-size:1.5rem;
+  color: black;
+  letter-spacing:0.3px;
+  font-weight:400;
+}
+.Resume__date{
+  font-size: 12px;
+}
+.ProjectInResume_addSkills >ul>li {
+ font-size: 14px;
+ font-weight: 500;
+}
