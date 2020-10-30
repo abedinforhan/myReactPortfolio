@@ -2,10 +2,11 @@ import React from 'react';
 import './ContactMe.css';
 import emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reactstrap';
+import Footer from '../Footer/Footer';
 
 const ContactMe = () => {
 
-   
+
 
   function sendEmail(e) {
     e.preventDefault();
@@ -22,9 +23,8 @@ const ContactMe = () => {
     <div className='contact pt-5'>
 
       <Container className='contact__container'>
-
-        <Row className='pt-5'>
-          <Col md={{ size: 6, offset: 1 }} sm={{ size: 'auto' }} lg={10}>
+          <Row className=''>
+          <Col lg={10} md={{ size: 6, offset: 1 }} sm={{ size: 'auto' }} >
             <h2><i className="fa fa-envelope fa-3x " aria-hidden="true"></i></h2>
             <Form onSubmit={sendEmail}>
               <FormGroup className='mt-3'>
@@ -41,18 +41,18 @@ const ContactMe = () => {
               </FormGroup>
               <FormGroup className='mt-3'>
                 <Label className='contact__infoLabel' for="message">Message</Label>
-                <Input style={{height:'8rem'}} type="textarea" name="message" id="message" />
+                <Input style={{ height: '8rem' }} type="textarea" name="message" id="message" />
               </FormGroup>
               <Button>Submit</Button>
             </Form>
           </Col>
           <Col md={{ size: 4, offset: 1 }} sm={12} className='text-center'>
-            <div className="contact__info pb-5">
+            <div className="contact__info">
               <span>Address and Phone :</span>
               <br />
               <span className="contact__icons">
                 <i className="fa fa-male fa-2 fa-2x mx-3" aria-hidden="true"></i>
-                <i className="fa fa-address-card fa-2 fa-2x mx-3" aria-hidden="true"></i>
+                <i className="fa fa-address-card fa-2x mx-3" aria-hidden="true"></i>
                 <i className="fa fa-mobile fa-2 fa-2x mx-3" aria-hidden="true"></i>
               </span>
               <span>Mezbaul Abedin Forhan</span>
@@ -60,13 +60,13 @@ const ContactMe = () => {
             </span>
               <span>4000,Chittagong</span>
               <span>Bangladesh</span>
-              <span>+8801720811347
-            </span>
+              <span> +8801720811347</span>
             </div>
-           </Col>
+          </Col>
         </Row>
-         
+
       </Container>
+      <Footer/>
     </div>
 
   );

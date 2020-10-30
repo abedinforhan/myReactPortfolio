@@ -9,8 +9,8 @@ const Resume = () => {
 
   const [data, setData] = useState(resumeProjectData)
   return (
-    <div className='resume'>
-      <Container className='resume py-5'>
+    <div className='resume contact__container'>
+      <Container className='resume'>
         <Row>
           <Col md={6}>
             <h1>Mezbaul Abedin Forhan</h1>
