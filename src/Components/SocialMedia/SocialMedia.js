@@ -7,7 +7,7 @@ const SocialMedia = () => {
     <div className="socialMedia mb-5">
     
      <Button outline color="danger">
-     <a className='.resume__Btn text-decoration-none ' href="https://drive.google.com/file/d/1hYIo3oQ0xvx_MZXBcT3yRqSKFBbQw8rL/view?usp=sharing" download>Download Resume</a>
+     <a className='resume__Btn text-decoration-none text-dark' href="https://drive.google.com/file/d/1hYIo3oQ0xvx_MZXBcT3yRqSKFBbQw8rL/view?usp=sharing" download>Download Resume</a>
       </Button>
      
       <h2>Want to Connect ?</h2>

@@ -5,10 +5,8 @@ import { Button, Form, FormGroup, Label, Input, Container, Row, Col } from 'reac
 import Footer from '../Footer/Footer';
 
 const ContactMe = () => {
-
-
-
-  function sendEmail(e) {
+ 
+   function sendEmail(e) {
     e.preventDefault();
 
     emailjs.sendForm('91221', 'template_d0qvuok', e.target, 'user_F9IwvjFRmcdQVKcNmOToa')
